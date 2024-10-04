@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "nombre": "Corte de cabello",
+        "imagen": "/img/barberia-tres.webp"
+    },
+    {
+        "id": 2,
+        "nombre": "Afeitado tradicional",
+        "imagen": "/img/barberia-cuatro.webp"
+    },
+    {
+        "id": 3,
+        "nombre": "Recorte y arreglo de barba",
+        "imagen": "/img/barberia-cinco.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Perfilado de cejas",
+        "imagen": "/img/barberia-seis.avif"
+    },
+    {
+        "id": 5,
+        "nombre": "Estilizado y peinado",
+        "imagen": "/img/barberia-siete.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Tratamientos capilares",
+        "imagen": "/img/barberia-ocho.avif"
+    }
+]

@@ -1,0 +1,12 @@
+.child-structure{
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .contenido{
+        width: 80%;
+        max-width: 1000px;
+        min-width: 800px;
+    }
+}

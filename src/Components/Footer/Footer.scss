@@ -1,0 +1,60 @@
+.footer-container {
+    width: 100%;
+    margin: 1.4% 0 1% 0;
+
+    .contenedor {
+        width: 100%;
+        
+        .developed {
+            font-size: var(--font-chico);
+            
+            span {
+                font-weight: bold;
+            }
+            
+            .autor {
+                font-size: var(--font-chico);
+                color: var(--color-ofertas);
+                font-weight: bold;
+            }
+        }
+    }
+    
+    .footer-mobile {
+        width: 100%;
+        display: none;
+        padding: 0 var(--padding-cuerpo);
+        margin: 6% 0 12% 0;
+
+        .developed {
+            font-size: var(--font-chico);
+
+            span {
+                font-weight: bold;
+            }
+
+            .autor {
+                font-size: var(--font-chico);
+                color: var(--color-ofertas);
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+// MEDIA QUERIES
+@media (max-width: 860px) {
+    .footer-container {
+        .contenedor {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 859px) {
+    .footer-container {
+        .footer-mobile {
+            display: block;
+        }
+    }
+}

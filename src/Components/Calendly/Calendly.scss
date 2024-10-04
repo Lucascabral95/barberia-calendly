@@ -1,0 +1,20 @@
+.boton-personalizado{
+    display: flex;
+    justify-content: center;
+    margin: 22px 0;
+    
+    .boton-de-calendly{
+        border-radius: 5px;
+        background-color: pink;
+        color: red;
+        font-weight: bold;
+        padding: 4px 12px;
+        border: transparent;
+        
+        &:hover{
+            color: blue;
+            background-color: yellow;
+            transition: 0.6s;
+        }
+    }
+}

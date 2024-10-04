@@ -1,0 +1,362 @@
+.about {
+    width: 100%;
+    padding: 0 var(--padding-cuerpo);
+
+    .imagen-presentacion {
+        margin: 0 0 0 0;
+
+        .imagen {
+            width: 100%;
+        }
+    }
+
+    .contenedor {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 8% 0 0 0;
+
+        .about-historia {
+            width: 60%;
+
+            .imagen-corte {
+                width: 100%;
+            }
+        }
+
+        .detalles {
+            background-color: var(--color-beige);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 4%;
+            margin-left: -40px;
+            width: 40%;
+
+            .div {
+                background-color: var(--color-beige);
+
+                .historia-subtitulo {
+                    background-color: transparent;
+                    color: var(--color-subtitulo-about);
+                    font-size: var(--font-chico);
+                }
+
+                .historia-titulo {
+                    background-color: transparent;
+                    font-size: var(--font-titulo);
+                }
+
+                .linea {
+                    width: 22%;
+                    margin: 4px 0 10px 0;
+                    background-color: var(--color-default);
+                    height: 1.2px;
+                }
+
+                .historia-introduccion {
+                    background-color: transparent;
+                    font-size: var(--font-chico);
+                }
+            }
+        }
+    }
+
+    .contenedor-precios {
+        margin-top: 150px;
+        width: 100%;
+
+        .price {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin: 0 0 2% 0;
+
+            .lista-precios {
+                width: 50%;
+                padding: 6%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: var(--color-beige);
+
+                .cont {
+                    background-color: var(--color-beige);
+
+                    .subtitulo {
+                        background-color: var(--color-beige);
+                        color: var(--color-subtitulo-about);
+                    }
+
+                    .precio {
+                        background-color: transparent;
+                        font-size: var(--font-titulo);
+                    }
+
+                    .linea {
+                        width: 22%;
+                        margin: 4px 0 10px 0;
+                        background-color: var(--color-default);
+                        height: var(--heigth-line);
+                    }
+
+                    .texto {
+                        background-color: transparent;
+                        font-size: var(--font-chico);
+                    }
+                }
+            }
+
+            .montos-precios {
+                background-color: var(--color-default);
+                width: 50%;
+                padding: 12px;
+                transform: translate(-10%, 16%);
+
+                .borde {
+                    background-color: var(--color-default);
+                    border: #A3987F 1px solid;
+                    padding: 8% 8%;
+
+                    .guia {
+                        background-color: var(--color-default);
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        margin: 20px 0;
+
+                        p {
+                            background-color: var(--color-default);
+                            color: white;
+                            font-weight: 400;
+                            font-size: var(--font-chico);
+                        }
+                    }
+                }
+            }
+        }
+
+        .ofertas {
+
+            .ofertas-especiales {
+                width: 52%;
+                background-color: var(--color-ofertas);
+                padding: 12px;
+                margin-left: 100px;
+
+                .borde {
+                    background-color: var(--color-ofertas);
+                    border: var(--heigth-line) white solid;
+                    padding: 8%;
+
+                    .titulo {
+                        color: white;
+                        background-color: transparent;
+                        font-size: var(--font-titulo);
+                        text-align: center;
+                        font-weight: 500;
+                    }
+
+                    .line {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100%;
+                        background-color: transparent;
+
+                        .linea {
+                            background-color: white;
+                            height: var(--heigth-line);
+                            width: 60%;
+                            margin: 12px 0 24px 0;
+                        }
+                    }
+
+                    .servicios {
+                        background-color: var(--color-ofertas);
+                        color: white;
+                        text-align: center;
+                        margin: 0 0 6px 0;
+                    }
+
+                    .subtitulo {
+                        background-color: var(--color-ofertas);
+                        text-align: center;
+                        color: white;
+                        font-size: var(--font-grande);
+                        font-weight: 100;
+
+                        span {
+                            background-color: var(--color-ofertas);
+                            color: #43D19F;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// MEDIA QUERIES
+@media (max-width: 860px) {
+    .about {
+        .c-about-desktop {
+            display: none;
+        }
+        .detalles {
+            display: none;
+        }
+        .contenedor-precios {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 859px) {
+    .aboutme-mobile {
+        display: block !important;
+
+        .contenido {
+            background-color: var(--color-beige);
+            padding: 8% 4% 12% 4%;
+
+            .subtitulo {
+                color: var(--color-ofertas);
+            }
+
+            .titulo {
+                font-size: var(--font-titulo);
+            }
+
+            .linea {
+                font-size: var(--font-chico);
+            }
+
+            .texto {}
+        }
+
+        .foto {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin: -8% 0 0 0;
+
+            .imagen {
+                width: 60%;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .ofertas-mobile {
+            margin: 12% 0 0 0;
+            .ofertas {
+                background-color: var(--color-beige);
+                padding: 8% 4%;
+
+                .subtitulo {
+                    font-size: var(--font-chico);
+                    color: var(--color-ofertas);
+                }
+
+                .titulo {
+                    font-size: var(--font-titulo);
+                }
+
+                .linea {
+                    height: var(--heigth-line);
+                    color: var(--color-default);
+                    width: 15%;
+
+                }
+
+                .texto {
+                    font-size: var(--font-chico);
+                }
+            }
+
+            .precios {
+                background-color: var(--color-default);
+                padding: 10px;
+
+                .contenedor {
+                    border: 1.2px solid #A3987F;
+                    padding: 4% 3%;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    .detalle {
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin: 2% 0;
+
+                        .tipo-precio {
+                            p {
+                                font-size: var(--font-chico);
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .ofertas-especiales {
+                background-color: var(--color-ofertas);
+                padding: 10px;
+                margin: 4% 0 0 0;
+
+                .contenedor {
+                    border: 1.2px solid white;
+                    padding: 4% 3%;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    .titulo {
+                        color: white;
+                        font-size: var(--font-grande);
+                    }
+
+                    .line {
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        .linea {
+                            background-color: white;
+                            width: 30%;
+                            height: 2px;
+                            margin: 6px 0 16px 0;
+                        }
+                    }
+
+                    .servicios {
+                        color: white;
+                        font-size: var(--font-chico);
+                    }
+
+                    .exclusividad {
+                        color: white;
+                        font-size: var(--font-grande-mobile);
+
+                        span {
+                            color: #35DBA9;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

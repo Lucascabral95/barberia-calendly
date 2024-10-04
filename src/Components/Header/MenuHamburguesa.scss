@@ -1,0 +1,72 @@
+.menu-sin-habilitar {
+    padding: 2% 3% 2% 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .reserva {
+        .boton-de-reservacion {
+            font-size: var(--font-chico);
+            color: var(--color-ofertas);
+            border: none;
+            background-color: transparent;
+        }
+    }
+
+    .icono {
+        .icon {
+            color: var(--color-default);
+            font-size: 44px;
+        }
+    }
+}
+
+.menu-hamburguesa {
+    height: 100vh;
+    width: 100%;
+    padding: 2% 3% 2% 3%;
+    user-select: none;
+    background-color: var(--color-default);
+
+    .contenedor-menu-boton {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        .boton {
+            cursor: pointer;
+
+            .iconoo {
+                color: white;
+                font-size: 44px;
+            }
+        }
+    }
+
+    .categorias {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10% 0;
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+
+            li {
+                margin: 12px;
+
+                a {
+                    font-size: var(--font-medio);
+                    color: white;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

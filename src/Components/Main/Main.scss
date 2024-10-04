@@ -1,0 +1,80 @@
+// ESTILOS GENERALES
+
+:root {
+    --font-diminuta: 13px;
+    --font-medio: 18px;
+    --font-chico: 15px;
+    --font-titulo: 48px;
+    --font-grande: 40px;
+    --font-grande-mobile: 34px;
+    --font-gigante: 60px;
+    --font-corte: 20px;
+    --font-corte-mobile: 24px;
+    --font-type: "GFS Didot", serif;
+    --color-default: #414141;
+    --color-opaco: #1809093d;
+    --color-font-menu: #88806E;
+    --border: 1.6px;
+    --border-radius: 8px;
+    --padding-cuerpo: 2.5%;
+    --color-subtitulo-about: #ED4B84;
+    --color-beige: #F7F5F0;
+    --color-ofertas: #ED4B2B;
+    --heigth-line: 1.2px;
+}
+
+* {
+    font-family: var(--font-type);
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color-default);  
+}
+
+ul {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+h5 {
+    margin: 0;
+    padding: 0;
+}
+
+h6 {
+    margin: 0;
+    padding: 0;
+}
