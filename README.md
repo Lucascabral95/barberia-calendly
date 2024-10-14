@@ -11,9 +11,12 @@ Instalar generador-de-colores con npm
   npm run dev
 ```
 
+## 🌟 Descripción
+
 Este proyecto consiste en el desarrollo de una landing page responsiva para una barbería. La plataforma permite a los usuarios realizar reservas de citas de manera sencilla y eficiente, seleccionando la fecha y la hora deseadas a través de Calendly.
 
-Características Principales: 
+## ⚙️ Características Principales:
+
 - **Reservas de Citas**: Los usuarios pueden elegir la fecha y hora que mejor se adapte a sus necesidades.
 - **Notificaciones por Correo Electrónico**: Al finalizar el proceso de reserva, se envía un correo electrónico de confirmación al usuario, asegurando que tenga toda la información necesaria.
 - **Opción de Cancelación**: Se ofrece la posibilidad de cancelar las citas reservadas, brindando flexibilidad y comodidad a los clientes.
