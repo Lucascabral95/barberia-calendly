@@ -1,5 +1,16 @@
 # Landing Page para Barbería - Enfocada en Reserva
 
+## Instalación
+
+Instalar generador-de-colores con npm
+
+```bash
+  git clone https://github.com/Lucascabral95/barberia-calendly.git
+  cd calendar
+  npm install 
+  npm run dev
+```
+
 Este proyecto consiste en el desarrollo de una landing page responsiva para una barbería. La plataforma permite a los usuarios realizar reservas de citas de manera sencilla y eficiente, seleccionando la fecha y la hora deseadas a través de Calendly.
 
 Características Principales: 
